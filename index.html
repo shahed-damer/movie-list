@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie list</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Movie list</h1>
+</header>
+<main>
+    <section>
+        <form id="form">
+            <div><label>Name</label> <input type="text" id="namee"></div>
+            <div><label>Image</label> <select id="Image">
+                <option value="action">action</option>
+                <option value="adventure">adventure</option>
+                <option value="animation">animation</option>
+                <option value="comedy">comedy</option>
+                <option value="detective">detective</option>
+                <option value="fantasy">fantasy</option>
+                <option value="history">history</option>
+                <option value="horror">horror</option>
+                <option value="musical">musical</option>
+                <option value="pirate">pirate</option>
+                <option value="romantic">romantic</option>
+                <option value="sci-fi">sci-fi</option>
+                <option value="war">war</option>
+                <option value="western">western</option>
+            </select>
+            </div>
+            <div> <label>Release</label> <input type="number"></div>
+            <div> <button type="submit">Save</button></div>
+            <div> <button type="reset">ClearLs</button></div>
+        </form>
+    </section>
+
+    <section>
+        <table id="table">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </section>
+</main>
+<footer>All right reserved 2021 @ ASAC</footer>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+     display: grid;
+     grid-template-rows: 100px minmax(calc(100vh-170px),1fr)50px; 
+     gap: 200px;
+}
+header{
+    background-color: #39A2DB;
+}
+
+
+
+footer{
+
+    background-color: #A2DBFA;
+}
